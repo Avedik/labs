@@ -10,6 +10,11 @@ end;
 
 function DaysInYear(DateTime date) := if IsLeapYear(date) then 366 else 365;
 
+function DaysInYearRange(): integer;
+begin
+  
+end;
+
 begin
   
 end.
