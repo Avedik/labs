@@ -8,6 +8,13 @@ begin
   Result := if DateTime.Compare(day1, day2) < 0 then day1 else day2;
 end;
 
+function DaysInYear(DateTime date) := if IsLeapYear(date) then 366 else 365;
+
+function DaysInYearRange(): integer;
+begin
+  
+end;
+
 begin
   
 end.
